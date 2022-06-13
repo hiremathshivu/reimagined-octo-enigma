@@ -1,0 +1,785 @@
+{
+    "maxResults": 50,
+    "startAt": 51,
+    "total": 140,
+    "isLast": false,
+    "values": [
+        {
+            "id": "customfield_10240",
+            "name": "Flagged",
+            "schema": {
+                "type": "array",
+                "items": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+                "customId": 10240
+            },
+            "description": "Allows to flag issues with impediments.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T03:14:22.675-0500"
+            }
+        },
+        {
+            "id": "customfield_10298",
+            "name": "FS Due Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10298
+            },
+            "description": "Estimate Date when functional is going to deliver the functional spec",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-04T05:36:22.028-0500"
+            }
+        },
+        {
+            "id": "customfield_10307",
+            "name": "Functional",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10307
+            },
+            "description": "Functional",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T00:45:19.150-0500"
+            }
+        },
+        {
+            "id": "customfield_10246",
+            "name": "Impact",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10246
+            },
+            "description": "",
+            "screensCount": 5,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10378",
+            "name": "Impact Analysis",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10378
+            },
+            "description": "This will be used to describe Impact Analysis",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2020-10-21T05:24:12.300-0500"
+            }
+        },
+        {
+            "id": "customfield_10460",
+            "name": "Implementation plan",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10460
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10254",
+            "name": "Investigation reason",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10254
+            },
+            "description": "Reason for problem investigation",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10453",
+            "name": "Is Groomed",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10453
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T04:28:36.666-0500"
+            }
+        },
+        {
+            "id": "customfield_10626",
+            "name": "Is Quality Check Required",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10626
+            },
+            "description": "This field will be used for identifying a PBI that requires a Quality check or not.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-26T06:36:04.907-0500"
+            }
+        },
+        {
+            "id": "customfield_10244",
+            "name": "Issue color",
+            "schema": {
+                "type": "string",
+                "custom": "com.pyxis.greenhopper.jira:jsw-issue-color",
+                "customId": 10244
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10384",
+            "name": "Label",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10384
+            },
+            "description": "The field is used to filter the Test Cases.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-13T08:08:44.703-0500"
+            }
+        },
+        {
+            "id": "customfield_10651",
+            "name": "Last Comment",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10651
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T04:52:33.408-0500"
+            }
+        },
+        {
+            "id": "customfield_10642",
+            "name": "legal_approval",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+                "customId": 10642
+            },
+            "description": "Did Legal approve the content?",
+            "screensCount": 13,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-23T05:49:10.014-0500"
+            }
+        },
+        {
+            "id": "customfield_10119",
+            "name": "Location",
+            "schema": {
+                "type": "any",
+                "custom": "com.atlassian.jconnect.jconnect-plugin:location",
+                "customId": 10119
+            },
+            "description": "Adding both UUID and Location fields to a project, will enable JIRA Mobile Connect for that project.",
+            "screensCount": 0,
+            "contextsCount": 0,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10542",
+            "name": "Major incident",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.modules.servicemanagement.major-incident-entity:major-incident-entity-field-cftype",
+                "customId": 10542
+            },
+            "description": "Mark incident as major.",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10454",
+            "name": "Module Name",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10454
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-06T05:59:08.887-0500"
+            }
+        },
+        {
+            "id": "customfield_10661",
+            "name": "Next Step Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10661
+            },
+            "description": "This field can be used for starting the next steps depending on the item.",
+            "screensCount": 4,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-06T09:36:22.687-0500"
+            }
+        },
+        {
+            "id": "customfield_10625",
+            "name": "North America Site",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10625
+            },
+            "description": "These sites are related to North America Region ",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-01T10:17:36.627-0500"
+            }
+        },
+        {
+            "id": "customfield_10653",
+            "name": "NOTE",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10653
+            },
+            "description": "Parent issue closure when all the subtasks are closed",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-08T06:04:26.035-0500"
+            }
+        },
+        {
+            "id": "customfield_10300",
+            "name": "Object Delivery Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10300
+            },
+            "description": "Estimate date when technology team will deliver object first prototype",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-21T06:13:58.992-0500"
+            }
+        },
+        {
+            "id": "customfield_10305",
+            "name": "Object Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+                "customId": 10305
+            },
+            "description": "Object Type",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-21T06:13:58.992-0500"
+            }
+        },
+        {
+            "id": "customfield_10256",
+            "name": "Operational categorization",
+            "schema": {
+                "type": "option-with-child",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselect",
+                "customId": 10256
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10001",
+            "name": "Organizations",
+            "schema": {
+                "type": "array",
+                "items": "sd-customerorganization",
+                "custom": "com.atlassian.servicedesk:sd-customer-organizations",
+                "customId": 10001
+            },
+            "description": "Stores the organizations that are associated with a Service Desk customer portal requests. This custom field is created programmatically and required by Service Desk.",
+            "screensCount": 11,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10113",
+            "name": "Parent Link",
+            "schema": {
+                "type": "any",
+                "custom": "com.atlassian.jpo:jpo-custom-field-parent",
+                "customId": 10113
+            },
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10257",
+            "name": "Pending reason",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10257
+            },
+            "description": "Specify the reason for moving the issue to the Pending status",
+            "screensCount": 6,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10484",
+            "name": "Place",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10484
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-02T04:59:14.763-0500"
+            }
+        },
+        {
+            "id": "customfield_10464",
+            "name": "Planned end",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+                "customId": 10464
+            },
+            "description": "Enter when the change is planned to end.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10463",
+            "name": "Planned start",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+                "customId": 10463
+            },
+            "description": "Enter when the change is planned to start.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10643",
+            "name": "Portal Request Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10643
+            },
+            "description": "",
+            "screensCount": 13,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-30T04:56:10.584-0500"
+            }
+        },
+        {
+            "id": "customfield_10350",
+            "name": "Precondition",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10350
+            },
+            "description": "This will be used to put pre-condition of test case.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-20T08:09:35.247-0500"
+            }
+        },
+        {
+            "id": "customfield_10255",
+            "name": "Product categorization",
+            "schema": {
+                "type": "option-with-child",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselect",
+                "customId": 10255
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10439",
+            "name": "Product Owner",
+            "schema": {
+                "type": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:userpicker",
+                "customId": 10439
+            },
+            "description": "",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-26T08:40:57.763-0500"
+            }
+        },
+        {
+            "id": "customfield_10320",
+            "name": "Program Increment",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10320
+            },
+            "description": "Program Increment field created by BigPicture",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10537",
+            "name": "QA Owner",
+            "schema": {
+                "type": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:userpicker",
+                "customId": 10537
+            },
+            "description": "This field represent QA owner for the respective ticket who will write test cases as well as execution",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-03T10:22:40.763-0500"
+            }
+        },
+        {
+            "id": "customfield_10629",
+            "name": "QA Story Points",
+            "schema": {
+                "type": "number",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+                "customId": 10629
+            },
+            "description": "QA Story Points",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-06T00:30:21.820-0500"
+            }
+        },
+        {
+            "id": "customfield_10474",
+            "name": "Quality Analyst",
+            "schema": {
+                "type": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:userpicker",
+                "customId": 10474
+            },
+            "description": "This field can be used for assigning a Quality Analyst. Who will be responsible for performing QA activity on a Bug, Userstory, Epic.",
+            "screensCount": 4,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-12T08:02:03.619-0500"
+            }
+        },
+        {
+            "id": "customfield_10116",
+            "name": "Rank",
+            "schema": {
+                "type": "any",
+                "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+                "customId": 10116
+            },
+            "description": "Global rank field for JIRA Software use only.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10482",
+            "name": "Recommendations",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10482
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10483",
+            "name": "Region",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10483
+            },
+            "description": "",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10245",
+            "name": "Request language",
+            "schema": {
+                "type": "sd-request-lang",
+                "custom": "com.atlassian.servicedesk.servicedesk-lingo-integration-plugin:sd-request-language",
+                "customId": 10245
+            },
+            "description": "The language which a request was raised in.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10229",
+            "name": "Request participants",
+            "schema": {
+                "type": "array",
+                "items": "user",
+                "custom": "com.atlassian.servicedesk:sd-request-participants",
+                "customId": 10229
+            },
+            "description": "Stores the users that are participants in Service Desk customer portal requests. This custom field is created programmatically and required by Service Desk.",
+            "screensCount": 13,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10228",
+            "name": "Request Type",
+            "schema": {
+                "type": "sd-customerrequesttype",
+                "custom": "com.atlassian.servicedesk:vp-origin",
+                "customId": 10228
+            },
+            "description": "Holds information about which Service Desk was used to create a ticket. This custom field is created programmatically and must not be modified.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10541",
+            "name": "Responders",
+            "schema": {
+                "type": "array",
+                "items": "string",
+                "custom": "com.atlassian.jira.modules.servicemanagement.responders-entity:responders-entity-field-cftype",
+                "customId": 10541
+            },
+            "description": "Add responders to an incident.",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10224",
+            "name": "Risk consequence",
+            "schema": {
+                "type": "option2",
+                "custom": "com.atlassian.plugins.atlassian-connect-plugin:eu.softwareplant.bigpicture__risk-consequence",
+                "customId": 10224
+            },
+            "description": "Risk Consequence field used by BigPicture plugin. (Only Issues with both, Risk Probability and Risk Consequence values selected will appear in Risk Matrix)",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10223",
+            "name": "Risk probability",
+            "schema": {
+                "type": "option2",
+                "custom": "com.atlassian.plugins.atlassian-connect-plugin:eu.softwareplant.bigpicture__risk-probability",
+                "customId": 10223
+            },
+            "description": "Risk Probability field used by BigPicture plugin. (Only Issues with both, Risk Probability and Risk Consequence values selected will appear in Risk Matrix)",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10258",
+            "name": "Root cause",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10258
+            },
+            "description": "Describe the root cause for the problem",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10314",
+            "name": "SAP Documentation Link",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+                "customId": 10314
+            },
+            "description": "SAP Documentation Link",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-03-28T01:41:26.723-0500"
+            }
+        },
+        {
+            "id": "customfield_10230",
+            "name": "Satisfaction",
+            "schema": {
+                "type": "sd-feedback",
+                "custom": "com.atlassian.servicedesk:sd-request-feedback",
+                "customId": 10230
+            },
+            "description": "Stores request feedback in Service Desk requests. This custom field is created programmatically and required by Service Desk.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10231",
+            "name": "Satisfaction date",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.servicedesk:sd-request-feedback-date",
+                "customId": 10231
+            },
+            "description": "Stores request feedback date in Service Desk requests. This custom field is created programmatically and required by Service Desk.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10663",
+            "name": "SEO Portal Request Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10663
+            },
+            "description": "This field will be used for categorizing different SEO request Types.",
+            "screensCount": 7,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-19T06:15:02.815-0500"
+            }
+        }
+    ]
+}

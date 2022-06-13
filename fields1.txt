@@ -1,0 +1,796 @@
+{
+    "maxResults": 50,
+    "startAt": 0,
+    "total": 140,
+    "isLast": false,
+    "values": [
+        {
+            "id": "customfield_10237",
+            "name": "Acceptance Criteria",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10237
+            },
+            "screensCount": 27,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T05:14:50.533-0500"
+            }
+        },
+        {
+            "id": "customfield_10205",
+            "name": "Account",
+            "schema": {
+                "type": "option2",
+                "custom": "com.atlassian.plugins.atlassian-connect-plugin:io.tempo.jira__account",
+                "customId": 10205
+            },
+            "description": "Tempo Account Custom Field",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10299",
+            "name": "Actual FS Due Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10299
+            },
+            "description": "Real Date when functional deliver the functional spec",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-23T10:50:32.585-0500"
+            }
+        },
+        {
+            "id": "customfield_10301",
+            "name": "Actual Object Delivery Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10301
+            },
+            "description": "Real Date when technology team deliver the first object prototype",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-18T09:24:20.246-0500"
+            }
+        },
+        {
+            "id": "customfield_10457",
+            "name": "Affected hardware",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10457
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10458",
+            "name": "Affected services",
+            "schema": {
+                "type": "array",
+                "items": "service-entity-field",
+                "custom": "com.atlassian.jira.plugins.service-entity:service-entity-field-cftype",
+                "customId": 10458
+            },
+            "description": "Link services from the service registry to an issue.",
+            "screensCount": 6,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10112",
+            "name": "Approvals",
+            "schema": {
+                "type": "sd-approvals",
+                "custom": "com.atlassian.servicedesk.approvals-plugin:sd-approvals",
+                "customId": 10112
+            },
+            "description": "Provides search options for JIRA Service Desk approvals information. This custom field is created programmatically and required by Service Desk.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10521",
+            "name": "Approver groups",
+            "schema": {
+                "type": "array",
+                "items": "group",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multigrouppicker",
+                "customId": 10521
+            },
+            "description": "Contains groups of users needed for approval. This custom field was created by Jira Service Management.",
+            "screensCount": 4,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10232",
+            "name": "Approvers",
+            "schema": {
+                "type": "array",
+                "items": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+                "customId": 10232
+            },
+            "description": "Contains users needed for approval. This custom field was created by JIRA Service Desk.",
+            "screensCount": 11,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-27T10:26:31.854-0500"
+            }
+        },
+        {
+            "id": "customfield_10640",
+            "name": "Auth Code",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10640
+            },
+            "description": "Please Provide the Auth Code for DNS registration.",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-03T08:55:35.895-0500"
+            }
+        },
+        {
+            "id": "customfield_10461",
+            "name": "Backout plan",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10461
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10318",
+            "name": "Baseline end date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10318
+            },
+            "description": "Baseline end date field used by SoftwarePlant plugins",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2021-04-27T05:20:50.428-0500"
+            }
+        },
+        {
+            "id": "customfield_10317",
+            "name": "Baseline start date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10317
+            },
+            "description": "Baseline start date field used by SoftwarePlant plugins",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2021-04-27T05:20:50.428-0500"
+            }
+        },
+        {
+            "id": "customfield_10269",
+            "name": "Brand",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10269
+            },
+            "description": "Brand site having the issue. Field for the DASH projects",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-02-24T03:25:08.018-0600"
+            }
+        },
+        {
+            "id": "customfield_10489",
+            "name": "Bug Category",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10489
+            },
+            "description": "This field is for defining the category of the bug.",
+            "screensCount": 50,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T06:48:21.446-0500"
+            }
+        },
+        {
+            "id": "customfield_10655",
+            "name": "Bug Details",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10655
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T07:30:33.252-0500"
+            }
+        },
+        {
+            "id": "customfield_10485",
+            "name": "Bug Environment",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10485
+            },
+            "description": "The environment in which this bug is detected.",
+            "screensCount": 51,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T06:48:21.446-0500"
+            }
+        },
+        {
+            "id": "customfield_10525",
+            "name": "Bug Severity",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10525
+            },
+            "description": "Critical/Blocker (S1):-A core functionality of the system fails or the system doesn’t work. A catastrophic defect that causes total failure of the software/system or unrecoverable data loss. There is no workaround. In general, a severity 1 defect would prevent the product from being released.\nMajor (S2):- A major defect occurs when the functionality is functioning grossly away from the expectations or not doing what it should be doing. This defect has an impact on basic functionality and the system is unable to produce the required results. One or more core business processes are impacted. A workaround may or may not exist, but if it does it is overly burdensome due to the frequency of occurrence or complex nature to execute it.\nMedium (S3):- A moderate defect occurs when the product or application doesn’t meet certain criteria or still exhibits some unnatural behavior, however, the functionality as a whole is not impacted. The defect causes the system to generate false, inconsistent, or incomplete results. Business processes impacted are not core or there is a simple workaround.\nLow (S4):- A minor bug occurs when there is almost no impact to the functionality but is still a valid defect that should be corrected. There is an impact on the business, but only in a very few cases. A workaround is often unnecessary as the bug causes no hindrance to the user.",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T06:48:21.446-0500"
+            }
+        },
+        {
+            "id": "customfield_10494",
+            "name": "Bug Test Suite Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10494
+            },
+            "description": "This field can be used for assigning a value that identifies Which type to test suite team was executing when this defect is detected. e.g.\r\n1. Story Testing\r\n2. Regression Testing \r\n3. Integration Testing.\r\n4. Smoke Testing\r\n5. Automation Testing.\r\n6. Sanity Testing\r\n7. etc",
+            "screensCount": 49,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T06:48:21.446-0500"
+            }
+        },
+        {
+            "id": "customfield_10486",
+            "name": "Bug Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10486
+            },
+            "description": "Internal - Detected by QA team in Dev and stage environment.\nExternal - Detected by anyone else  e.g. PO, Brand Team, SEO, UX Team",
+            "screensCount": 51,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T06:48:21.446-0500"
+            }
+        },
+        {
+            "id": "customfield_10535",
+            "name": "Business Owner Email",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10535
+            },
+            "description": "This field represent the email of beam business owner who raised the corresponding ticket in Service Now",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-07T07:30:33.252-0500"
+            }
+        },
+        {
+            "id": "customfield_10261",
+            "name": "CAB",
+            "schema": {
+                "type": "array",
+                "items": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+                "customId": 10261
+            },
+            "description": "Change Advisory Board members",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10480",
+            "name": "Category",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10480
+            },
+            "description": "",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-02T04:59:14.763-0500"
+            }
+        },
+        {
+            "id": "customfield_10251",
+            "name": "Change completion date",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+                "customId": 10251
+            },
+            "description": "Specify the completion time for the change request",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10260",
+            "name": "Change managers",
+            "schema": {
+                "type": "array",
+                "items": "user",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+                "customId": 10260
+            },
+            "description": "Contains the change managers for the change management process.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10249",
+            "name": "Change reason",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10249
+            },
+            "description": "Choose the reason for the change request",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10248",
+            "name": "Change risk",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10248
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-27T10:26:35.533-0500"
+            }
+        },
+        {
+            "id": "customfield_10250",
+            "name": "Change start date",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+                "customId": 10250
+            },
+            "description": "Specify the time and date for the start of the change",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10247",
+            "name": "Change type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10247
+            },
+            "description": "",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-27T10:26:37.675-0500"
+            }
+        },
+        {
+            "id": "customfield_10100",
+            "name": "[CHART] Date of First Response",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.ext.charting:firstresponsedate",
+                "customId": 10100
+            },
+            "description": "",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10101",
+            "name": "[CHART] Time in Status",
+            "schema": {
+                "type": "any",
+                "custom": "com.atlassian.jira.ext.charting:timeinstatus",
+                "customId": 10101
+            },
+            "description": "",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10481",
+            "name": "Comment Body",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10481
+            },
+            "description": "",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NO_INFORMATION"
+            }
+        },
+        {
+            "id": "customfield_10455",
+            "name": "Criticality",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10455
+            },
+            "description": "This field is for tracking defect criticality",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-27T09:01:51.323-0500"
+            }
+        },
+        {
+            "id": "customfield_10284",
+            "name": "Current Status",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10284
+            },
+            "description": "Additional details of current status",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2019-12-09T12:02:25.416-0600"
+            }
+        },
+        {
+            "id": "customfield_10000",
+            "name": "development",
+            "schema": {
+                "type": "any",
+                "custom": "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf",
+                "customId": 10000
+            },
+            "description": "Includes development summary panel information used in JQL",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10631",
+            "name": "DevOps Request",
+            "schema": {
+                "type": "array",
+                "items": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiselect",
+                "customId": 10631
+            },
+            "description": "This field will be used for categorization of DevOps team requests",
+            "screensCount": 6,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-16T12:41:53.743-0500"
+            }
+        },
+        {
+            "id": "customfield_10303",
+            "name": "Documentation",
+            "schema": {
+                "type": "array",
+                "items": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+                "customId": 10303
+            },
+            "description": "",
+            "screensCount": 2,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-21T06:13:58.992-0500"
+            }
+        },
+        {
+            "id": "customfield_10639",
+            "name": "Domain Name",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+                "customId": 10639
+            },
+            "description": "",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-16T12:41:53.743-0500"
+            }
+        },
+        {
+            "id": "customfield_10654",
+            "name": "Do you want to Update the parent issue to Done when all subtask are done?",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10654
+            },
+            "description": "Parent issue closure when all the subtask are done",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-31T03:23:57.414-0500"
+            }
+        },
+        {
+            "id": "customfield_10242",
+            "name": "Due Date",
+            "schema": {
+                "type": "date",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+                "customId": 10242
+            },
+            "screensCount": 4,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-06T09:49:08.390-0500"
+            }
+        },
+        {
+            "id": "customfield_10624",
+            "name": "EMEA Site",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10624
+            },
+            "description": "",
+            "screensCount": 3,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-01T10:17:36.627-0500"
+            }
+        },
+        {
+            "id": "customfield_10383",
+            "name": "End Date",
+            "schema": {
+                "type": "datetime",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+                "customId": 10383
+            },
+            "description": "The planned end date",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-04-11T05:14:59.439-0500"
+            }
+        },
+        {
+            "id": "customfield_10004",
+            "name": "Epic Color",
+            "schema": {
+                "type": "string",
+                "custom": "com.pyxis.greenhopper.jira:gh-epic-color",
+                "customId": 10004
+            },
+            "description": "Epic Color field for JIRA Software use only.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-05T09:18:26.923-0500"
+            }
+        },
+        {
+            "id": "customfield_10520",
+            "name": "Epic Demo URL",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+                "customId": 10520
+            },
+            "description": "Demo URL for the application, Website, API, etc.",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-02-11T07:13:08.525-0600"
+            }
+        },
+        {
+            "id": "customfield_10005",
+            "name": "Epic Link",
+            "schema": {
+                "type": "any",
+                "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+                "customId": 10005
+            },
+            "description": "Choose an epic to assign this issue to.",
+            "screensCount": 197,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10002",
+            "name": "Epic Name",
+            "schema": {
+                "type": "string",
+                "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+                "customId": 10002
+            },
+            "description": "Provide a short name to identify this epic.",
+            "screensCount": 104,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-06-05T09:18:26.923-0500"
+            }
+        },
+        {
+            "id": "customfield_10003",
+            "name": "Epic Status",
+            "schema": {
+                "type": "option",
+                "custom": "com.pyxis.greenhopper.jira:gh-epic-status",
+                "customId": 10003
+            },
+            "description": "Epic Status field for JIRA Software use only.",
+            "screensCount": 0,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "NOT_TRACKED"
+            }
+        },
+        {
+            "id": "customfield_10513",
+            "name": "Epic Type",
+            "schema": {
+                "type": "option",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+                "customId": 10513
+            },
+            "description": "There are two types of epics, each of which may occur at different levels of the Framework. \n1- Business epics directly deliver business value, \n2- Enabler epics are used to advance the Architectural Runway to support upcoming business, release or technical needs.",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2022-05-29T17:05:33.303-0500"
+            }
+        },
+        {
+            "id": "customfield_10239",
+            "name": "External issue ID",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10239
+            },
+            "description": "External issue ID created by JIM during import process",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2017-11-21T16:44:58.994-0600"
+            }
+        },
+        {
+            "id": "customfield_10440",
+            "name": "External issue ID",
+            "schema": {
+                "type": "string",
+                "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+                "customId": 10440
+            },
+            "description": "External issue ID created by JIM during import process",
+            "screensCount": 1,
+            "contextsCount": 1,
+            "lastUsed": {
+                "type": "TRACKED",
+                "value": "2021-05-02T13:33:30.098-0500"
+            }
+        }
+    ]
+}
